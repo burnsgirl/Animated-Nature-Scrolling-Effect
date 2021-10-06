@@ -140,10 +140,11 @@ $shadows-big:    multiple-box-shadow(100);} */
     background: transparent;
     box-shadow: 365px 1493px black , 744px 1715px black , 1915px 1830px black , 1599px 1120px black , 1019px 1243px black , 34px 1331px black , 1798px 1756px black , 173px 1224px black , 1057px 132px black , 1403px 895px black , 1657px 1052px black , 1937px 115px black , 379px 1661px black , 1799px 754px black , 1431px 266px black , 1154px 820px black , 1209px 186px black , 292px 464px black , 643px 621px black , 1468px 1465px black , 356px 1794px black , 992px 845px black , 483px 35px black , 221px 238px black , 1656px 32px black , 280px 1810px black , 677px 1311px black , 1566px 240px black , 1599px 1734px black , 1394px 1670px black , 908px 1773px black , 1912px 66px black , 894px 1044px black , 1954px 790px black , 620px 691px black , 162px 1191px black , 1069px 133px black , 98px 1287px black , 790px 1567px black , 79px 589px black , 231px 1075px black , 1389px 431px black , 1709px 1114px black , 1490px 552px black , 884px 1945px black , 1007px 1859px black , 1610px 1353px black , 1383px 319px black , 366px 502px black , 1099px 165px black , 614px 300px black , 1335px 67px black , 965px 1563px black , 414px 1626px black , 648px 1277px black , 1881px 650px black , 343px 1460px black , 1802px 1962px black , 325px 1807px black , 219px 483px black , 1544px 1652px black , 1695px 1554px black , 981px 82px black , 1699px 642px black , 1998px 334px black , 1670px 1317px black , 1617px 1083px black , 73px 44px black , 1827px 765px black , 589px 1350px black , 1982px 861px black , 92px 611px black , 929px 1310px black , 682px 391px black , 670px 894px black , 556px 1349px black , 1460px 1531px black , 1933px 769px black , 1088px 902px black , 842px 1286px black , 1704px 1593px black , 665px 1322px black , 966px 1293px black , 545px 1028px black , 1101px 975px black , 1478px 71px black , 792px 53px black , 142px 1981px black , 1661px 976px black , 1200px 1382px black , 1445px 800px black , 1699px 1381px black , 310px 243px black , 1424px 1157px black , 1182px 1338px black , 1739px 271px black , 1157px 233px black , 769px 999px black , 1832px 1570px black , 77px 857px black;
 }
-.stars67 {
+.box {
     background-color:black;
     position: fixed;
-    border-radius:50%;
+    animation: animStar 100s linear infinite;
+    border-radius:44%;
 }
 
 @keyframes animStar {
