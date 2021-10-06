@@ -11,6 +11,25 @@
 // $shadows-medium: multiple-box-shadow(200)
 // $shadows-big:    multiple-box-shadow(100)
 
+let images = document.getElementById('images');
+let cliff = document.getElementById('cliff');
+let moon = document.getElementById('moon');
+let couple = document.getElementById('couple');
+let forest = document.getElementById('forest');
+// let stars = document.getElementsByClassName('box');
+
+window.addEventListener('scroll', function () {
+    let value = window.scrollY;
+
+    moon.style.top = 10 + value * -0.5 + '%';
+    moon.style.left = 45 + value * -1 + '%';
+    cliff.style.left = 700 + value * 1.5 + 'px';
+    couple.style.left = 760 + value * 3 + 'px';
+    forest.style.left = value * -2.5 + 'px';
+    // stars.style.top = value * -0.5 + '%';
+})
+
+
 $(document).ready(function(){
   
     function freshDot(){

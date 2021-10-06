@@ -51,7 +51,7 @@ section {
 
 #moon {
     position:absolute;
-    top:5%;
+    top:10%;
     left:40%;
     width: 11%;
     height: 17%;
@@ -62,7 +62,7 @@ section {
 #couple {
     position: absolute;
     top: 28%;
-    left: 50%;
+    left: 44%;
     width: 11%;
     height: 17%;
 }
