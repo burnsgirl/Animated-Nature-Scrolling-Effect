@@ -16,6 +16,22 @@ body {
     width:100%;
 }
 
+p {
+    font-size:30px;
+    color:white;
+}
+
+#text {
+    background-color: black;
+    padding:50px;
+}
+
+h2 {
+    margin: 0px;
+    color: white;
+    font-size: 50px;
+}
+
 section {
     position: relative;
     width:100%;
